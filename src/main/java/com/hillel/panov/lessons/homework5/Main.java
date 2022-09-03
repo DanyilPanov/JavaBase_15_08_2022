@@ -112,11 +112,13 @@ public class Main {
         double resultTeam1 = (player1team1 + player2team1 + player3team1 + player4team1 + player5team1);
         double resultpoint = resultTeam1 / 5;
 
+        System.out.println(resultTeam1);
         System.out.println(resultpoint);
 
         double resultTeam2 = (player1team2 + player2team2 + player3team2 + player4team2 + player5team2);
         double resultpoint2 = resultTeam2 / 5;
 
+        System.out.println(resultTeam2);
         System.out.println(resultpoint2);
 
         if (resultpoint > resultpoint2) {
@@ -125,8 +127,8 @@ public class Main {
             System.out.println("winner tiger");
         } else {
             System.out.println("draw");
-
-
         }
+
+            System.out.println("Winner lion + 55 frags + 11 Point");
     }
 }
